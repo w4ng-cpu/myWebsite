@@ -65,6 +65,16 @@ flutter:
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
+  assets:
+   - assets/images/fire.png
+
+  fonts:
+   - family: Open Sans
+     fonts:
+       - asset: assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf
+         weight: 800
+       - asset: assets/fonts/Open_Sans/OpenSans-Regular.ttf
+         weight: 400
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
